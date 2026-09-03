@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+
+<launch>
+
+  <node pkg="my_robot"
+        type="waypoint_navigation.py"
+        name="waypoint_navigation"
+        output="screen"/>
+
+</launch>

@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+
+<launch>
+
+  <!-- Robot Hardware -->
+  <include file="$(find my_robot)/launch/robot_bringup.launch"/>
+
+  <!-- SLAM -->
+  <include file="$(find my_robot)/launch/slam.launch"/>
+
+  <!-- Autonomous Navigation -->
+  <include file="$(find my_robot)/launch/navigation.launch"/>
+
+</launch>

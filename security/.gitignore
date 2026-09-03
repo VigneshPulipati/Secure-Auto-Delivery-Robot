@@ -1,0 +1,12 @@
+# Authentication secrets
+.env
+*.key
+*.token
+secrets/
+credentials/
+authorized_token.txt
+
+# Generated QR codes
+*.png
+*.jpg
+*.jpeg

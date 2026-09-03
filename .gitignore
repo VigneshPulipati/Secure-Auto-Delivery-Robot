@@ -1,0 +1,39 @@
+# ROS
+ros_ws/build/
+ros_ws/devel/
+ros_ws/install/
+*.bag
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Virtual environments
+venv/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+*~
+
+# ROS generated files
+*.launch.xml
+
+# Credentials / secrets
+.env
+*.key
+*.pem
+secrets/

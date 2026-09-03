@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+
+<launch>
+
+  <!-- Global Costmap -->
+  <rosparam
+      file="$(find my_robot)/config/costmap_common_params.yaml"
+      command="load"
+      ns="move_base/global_costmap"/>
+
+  <rosparam
+      file="$(find my_robot)/config/global_costmap_params.yaml"
+      command="load"
+      ns="move_base/global_costmap"/>
+
+
+  <!-- Local Costmap -->
+  <rosparam
+      file="$(find my_robot)/config/costmap_common_params.yaml"
+      command="load"
+      ns="move_base/local_costmap"/>
+
+  <rosparam
+      file="$(find my_robot)/config/local_costmap_params.yaml"
+      command="load"
+      ns="move_base/local_costmap"/>
+
+
+  <!-- Local Planner -->
+  <rosparam
+      file="$(find my_robot)/config/base_local_planner_params.yaml"
+      command="load"
+      ns="move_base"/>
+
+
+  <!-- Move Base -->
+  <node pkg="move_base"
+        type="move_base"
+        name="move_base"
+        output="screen"/>
+
+</launch>

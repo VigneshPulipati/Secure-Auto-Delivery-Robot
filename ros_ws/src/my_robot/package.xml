@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+
+<package format="2">
+
+  <name>my_robot</name>
+
+  <version>1.0.0</version>
+
+  <description>
+    Autonomous Indoor Delivery Robot with SLAM,
+    autonomous navigation and QR-based security.
+  </description>
+
+  <maintainer email="pulipativignesh@gmail.com">
+    Autonomous Robot Project
+  </maintainer>
+  <maintainer name="Vignesh Pulipati">
+    Vignesh Pulipati
+  </maintainer>
+
+  <license>MIT</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <depend>roscpp</depend>
+  <depend>rospy</depend>
+  <depend>tf</depend>
+  <depend>sensor_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>nav_msgs</depend>
+
+  <exec_depend>rplidar_ros</exec_depend>
+  <exec_depend>hector_mapping</exec_depend>
+  <exec_depend>move_base</exec_depend>
+  <exec_depend>rosserial_python</exec_depend>
+  <exec_depend>map_server</exec_depend>
+
+</package>
+
