@@ -17,7 +17,7 @@ The robot maps an indoor space, autonomously navigates to a delivery point, and 
 
 ## Architecture
 
-![System architecture diagram](docs/adr_architecture.png)
+![System architecture diagram](/docs/adr_architecture.png)
 
 The Raspberry Pi 5 (Ubuntu 24, Docker/ROS Noetic) acts as the central hardware and data bus, tying together three subsystems:
 
@@ -27,18 +27,10 @@ The Raspberry Pi 5 (Ubuntu 24, Docker/ROS Noetic) acts as the central hardware a
 
 ## Demo
 
-_Demo video coming soon._
+
+[Watch the demo](/docs/Slam%20Demonstration.mp4)
 
 
-GitHub doesn't render local video files inline in Markdown, so use one of these once the file is in place:
-
-1. Link to it directly:
-   [Watch the demo](/docs/Slam%20Demonstration.mp4)
-
-2. Or drag the video into a GitHub issue/PR/README editor to get an
-   auto-generated https://github.com/user-attachments/assets/... URL,
-   which *does* embed and play inline:
-   https://github.com/user-attachments/assets/your-uploaded-video-id
 
 ## Repository Structure
 
