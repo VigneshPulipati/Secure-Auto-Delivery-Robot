@@ -25,12 +25,10 @@ The Raspberry Pi 5 (Ubuntu 24, Docker/ROS Noetic) acts as the central hardware a
 - **Vision and Authentication** — the camera feed goes through QR detection, and a matched code triggers authentication (unlocking the delivery box).
 - **Drive Control** — the ESP32 subscribes to `/cmd_vel` and drives two L298N motor drivers, each controlling three motors on the left/right side.
 
-## Demo
+## Demo Videos
 
-
-[Watch the demo](/docs/Slam%20Demonstration.mp4)
-
-
+[SLAM](https://github.com/user-attachments/assets/a9ea2a0b-2393-4cc5-b9aa-b154f1bdec41) |
+[Navigation](https://github.com/user-attachments/assets/c077286b-4bb8-4e33-ade5-128d4cb58a78)
 
 ## Repository Structure
 
