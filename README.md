@@ -9,12 +9,12 @@ The robot maps an indoor space, autonomously navigates to a delivery point, and 
 
 ## Features
 
-- 🗺️ **SLAM mapping** — Hector SLAM + RPLiDAR for real-time indoor mapping
-- 🧭 **Autonomous navigation** — `move_base` with tuned global/local costmaps and a waypoint-following client
-- 🔌 **ESP32 motor bridge** — subscribes to `/cmd_vel` over `rosserial` and drives a differential-drive base through two L298N motor drivers
-- 📦 **QR-based delivery unlock** — generates a unique QR code per delivery, verifies it against a local database, and actuates a servo to open/close the delivery box
-- 🐳 **Dockerized ROS environment** — ARM64 image pre-loaded with all required ROS packages
-- 🛠️ **Operator tooling** — shell scripts for diagnostics, map saving, navigation start/stop, and emergency stop
+-  **SLAM mapping** — Hector SLAM + RPLiDAR for real-time indoor mapping
+-  **Autonomous navigation** — `move_base` with tuned global/local costmaps and a waypoint-following client
+-  **ESP32 motor bridge** — subscribes to `/cmd_vel` over `rosserial` and drives a differential-drive base through two L298N motor drivers
+-  **QR-based delivery unlock** — generates a unique QR code per delivery, verifies it against a local database, and actuates a servo to open/close the delivery box
+-  **Dockerized ROS environment** — ARM64 image pre-loaded with all required ROS packages
+-  **Operator tooling** — shell scripts for diagnostics, map saving, navigation start/stop, and emergency stop
 
 ## Architecture
 
