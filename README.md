@@ -1,5 +1,5 @@
 # Secure Auto Delivery Robot
-## Automomous Delivery Robot With Smart Security System
+## Automomous Delivery Robot With QR Authentication System
 
 An autonomous indoor delivery robot built on **ROS Noetic**, using LiDAR-based SLAM for mapping, `move_base` for autonomous navigation, an **ESP32** for low-level motor control, and a **QR-code unlock system** for verifying deliveries.
 
